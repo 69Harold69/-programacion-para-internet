@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mi Sitio Web</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="bd">
+    <div class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="formulario.html">Formulario</a>
+    </div>
+
+    <h1>Contacto</h1>
+
+    <form method="get" action="formulario.html">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label>Género:</label>
+        <input type="radio" id="genero-masculino" name="genero" value="masculino" required>
+        <label for="genero-masculino">Masculino</label>
+        <input type="radio" id="genero-femenino" name="genero" value="femenino" required>
+        <label for="genero-femenino">Femenino</label>
+
+        <label for="contrasenia">Contraseña:</label>
+        <input type="password" id="contrasenia" name="contrasenia" required>
+
+        <label for="comentario">Comentario:</label>
+        <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+        <label for="ciudad">Ciudad:</label>
+        <select id="ciudad" name="ciudad">
+            <option value="guadalajara">Guadalajara</option>
+            <option value="zapopan">Zapopan</option>
+            <option value="tonala">Tonalá</option>
+            <option value="otra">Otra</option>
+        </select>
+
+        <label>
+            <input type="checkbox" name="interesado" value="si">
+            Me interesa contratarte
+        </label>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div class="footer">
+        <h2>Contáctame en...</h2>
+        <a href="harold.garcia0922@alumnos.udg.mx">harold.garcia0922@alumnos</a>
+        <br>
+        <a href="harold.jesus.garciaRamirez@gmail.com">harold.jesus.garciaRamirez@gmail.com</a>>
+    </div>
+
+</body>
+</html>
+</html>
